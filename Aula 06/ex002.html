@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa</title>
+    <style>
+        body{
+            background-color: rgb(65, 65, 65);
+            color: white;
+            font: normal 25pt Arial;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá Mundo!</h1>
+    <p>Meu primeiro programa em HTML no curso</p>
+
+    <script>
+        var n1 = parseInt(window.prompt('Digite um número:'))
+        var n2 = parseInt(window.prompt('Digite outro número:'))
+        var s = n1 + n2
+        window.alert('A soma é: ' + s) 
+
+        //template string
+        window.alert(`a soma é: ${s}`)
+
+        // (number + number) para adição
+        // (string + string) para concatenação
+
+        var n1 = parseInt(window.prompt('Digite um número:'))
+        var n2 = parseInt(window.prompt('Digite outro número:'))
+        var n1 = String(n1)
+        var n2 = String(n2)
+        var s = n1 + n2
+        window.alert('Como eu transformei em string o resultado da concatenação é: ' + s) // Concatenação
+        
+
+    </script>
+</body>
+</html>
