@@ -83,6 +83,37 @@ var n2 = 10
 var res = (n1 > n2) ? 'n1 é maior' : 'n2 é maior'
 res // 'n2 é maior'
 
+// Selecionar elementos do DOM
+window.document.getElementsByTagName()      //Por TAG
+window.document.getElementById()            //Por ID
+window.document.getElementsByName()         //Por NOME
+window.document.getElementsByClassName()    //Por CLASSE
+window.document.querySelector()             //Por SELETOR
+
+window.document.querySelector(TAG.ID) // Por ID
+window.document.querySelector(TAG#CLASS) // Por CLASSE
+
+var a
+a.innerText = 'Exemplo' // texto dentro da tag
+a.innerHTML = '<strong>Exemplo</strong>' // texto dentro da tag com formatação HTML
+
+//Eventos DOM
+mouseenter = 'mouse entrou'
+mouseout = 'mouse saiu'
+mousemove = 'mouse se moveu'
+mousedown = 'mouse pressionado'
+mouseup = 'mouse solto'
+click = 'mouse clicado'
+
+//functions
+Aula 10
+
+
+
+
+
+
+
 
 
 
