@@ -108,6 +108,16 @@ click = 'mouse clicado'
 //functions
 Aula 10
 
+//Pegar horario atual
+var agora = new Date()
+var hora = agora.getHours()
+var min = agora.getMinutes()
+var seg = agora.getSeconds()
+var dia = agora.getDate()
+var mes = agora.getMonth()
+
+
+
 
 
 
