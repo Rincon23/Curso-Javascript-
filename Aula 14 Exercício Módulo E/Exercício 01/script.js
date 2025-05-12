@@ -9,7 +9,7 @@ function Contar() {
         elemento.remove();
     });
 
-    if (inicio == "" || fim == "" || passo == "") {
+    if (fim == "" || fim == "" || passo == "") {
         alert(`alguma você não passou alguma informação`)
     } else {
         inicio = Number(inicio)
