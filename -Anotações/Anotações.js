@@ -134,6 +134,41 @@ for(var c = 1;c <= 4;c++) {
 console.log(c)
 }
 
+//Arrays / Vetores
+
+let num = [5,8,9] // cria um vetor
+num[4] = 6 // adiciona na posiçao 4 o numero 6
+num.push(7) // adiciona o numero no fim do vetor
+num.length // mostra o tamanho do vetor
+num.sort() //Coloca o vetor em ordem crescente
+
+
+console.log(`Nosso vetor é o ${num} ` + num.length)
+
+//preenchendo vetores com for
+
+for(let i;i<num.length;i++){
+    num[i] = 5
+}
+
+//simplificando
+
+for(let i in num) {
+    console.log(num[i])
+}
+
+//buscando valores dentro do vetor
+
+num.indexOf(/*Valor que quer procurar*/)
+
+let pos = num.indexOf(5)
+if (pos == -1){
+    console.log('Valor não encontrado')
+} else {
+    console.log(`o valor 5 está na posição: ${pos}`)
+    }
+
+
 
 
 
