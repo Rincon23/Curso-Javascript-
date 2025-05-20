@@ -1,0 +1,40 @@
+ <!DOCTYPE html>
+ <html lang="pt-br">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style.css">
+    
+ </head>
+ <body>
+    <header>
+        <h1>Analizador de números</h1>
+    </header>
+
+    <section>
+        <div class="div1">
+            <div class="adicionar">
+                <label for="NumAdd">Número (entre 1 a 100):</label>
+                <input type="text" id="NumAdd">
+                <button onclick="Adicionar()" id="NumAdd">Adicionar</button>
+            </div>
+        </div>
+        
+        <select id="numeros" size="10">
+            <option>Digite um número acima</option>
+        </select>
+        <button onclick="Analizar()">Analizar</button>
+
+        <div class="div2">
+            <p id="res"></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; Enzo Rincon</p>
+    </footer>
+
+    <script src="Script.js"></script>
+ </body>
+ </html>
