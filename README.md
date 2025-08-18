@@ -32,7 +32,7 @@ O curso aborda desde os **fundamentos do JavaScript** até tópicos mais moderno
 ## Conteúdo do Repositório
 
 - `Anotacoes/` → Resumos teóricos dos módulos e aulas
-- `Exercicios/` → Exercícios resolvidos com explicações
-- `Projetos/` → Pequenos projetos e aplicações práticas feitas durante o curso
+- `Aula/` → Conteúdo das aulas
+- `Exercícios/` → Pequenos projetos e aplicações práticas feitas durante o curso
 
 
