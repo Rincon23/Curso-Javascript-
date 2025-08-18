@@ -29,10 +29,9 @@ section {
     text-align: left;
 }
 
-.div2
-
-p {
-    color: white
+select#flista {
+    width: 150px;
 }
+
 
 
